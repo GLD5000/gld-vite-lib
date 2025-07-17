@@ -1,8 +1,33 @@
 {
-  "name": "gld-vite-lib",
-  "private": true,
+  "name": "@gld5000-react/vite-lib",
   "version": "0.0.0",
+  "private": true,
+  "description": "A Vite React TS UI Library template",
+  "keywords": [
+    "UI",
+    "Library",
+    "React",
+    "Vite"
+  ],
+  "homepage": "https://github.com/GLD5000/gld-vite-lib#readme",
+  "bugs": {
+    "url": "https://github.com/GLD5000/gld-vite-lib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLD5000/gld-vite-lib.git"
+  },
+  "license": "MIT",
+  "author": "GLD5000",
   "type": "module",
+  "main": "dist/gld-vite-lib.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b ./tsconfig-build.json && vite build",
