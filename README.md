@@ -1,5 +1,6 @@
 # React + TypeScript + Vite
-
+## [Library mode docs](https://vitejs.dev/guide/build.html#library-mode)
+## [lib mode docs](https://vitejs.dev/config/build-options.html#build-lib)
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
