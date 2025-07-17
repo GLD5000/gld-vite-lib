@@ -30,7 +30,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b ./tsconfig-build.json && vite build",
+    "build": "tsc -b ./tsconfig.lib.json && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
